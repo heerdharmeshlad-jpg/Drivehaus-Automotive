@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DRIVEHAUS | Beyond the Drive</title>
+
+    <meta
+        name="description"
+        content="DRIVEHAUS — Premium cars. Exceptional journeys."
+    >
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= PRELOADER ================= -->
+
+    <div class="preloader" id="preloader">
+
+        <div class="preloader-content">
+
+            <div class="brand-loader">
+                DRIVE<span>HAUS</span>
+            </div>
+
+            <div class="loading-line">
+                <div id="loadingProgress"></div>
+            </div>
+
+            <div class="loading-percent" id="loadingPercent">
+                0%
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar" id="navbar">
+
+        <a href="#home" class="brand">
+            DRIVE<span>HAUS</span>
+        </a>
+
+        <nav class="desktop-nav">
+
+            <a href="#home">Home</a>
+            <a href="#cars">Cars</a>
+            <a href="#experience">Experience</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <div class="nav-actions">
+
+            <button class="search-button" id="searchButton">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <a href="#test-drive" class="nav-cta">
+                Book a Test Drive
+            </a>
+
+        </div>
+
+        <button class="mobile-menu-button" id="mobileMenuButton">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </header>
+
+
+    <!-- ================= MOBILE NAV ================= -->
+
+    <div class="mobile-navigation" id="mobileNavigation">
+
+        <button class="mobile-close" id="mobileClose">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <nav>
+
+            <a href="#home">Home</a>
+            <a href="#cars">Cars</a>
+            <a href="#experience">Experience</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <a href="#test-drive" class="mobile-cta">
+            Book a Test Drive
+        </a>
+
+    </div>
+
+
+    <!-- ================= SEARCH OVERLAY ================= -->
+
+    <div class="search-overlay" id="searchOverlay">
+
+        <button class="search-close" id="searchClose">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div class="search-container">
+
+            <p>FIND YOUR NEXT DRIVE</p>
+
+            <div class="search-input-wrapper">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                    type="text"
+                    id="carSearch"
+                    placeholder="Search Mercedes, BMW, Porsche..."
+                >
+
+            </div>
+
+            <div id="searchResults"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-background"></div>
+
+            <div class="hero-gradient"></div>
+
+            <div class="hero-content">
+
+                <div class="hero-tag reveal">
+
+                    <span></span>
+
+                    PREMIUM AUTOMOTIVE COLLECTION
+
+                </div>
+
+                <h1 class="reveal">
+
+                    Drive
+                    <span>Different.</span>
+
+                </h1>
+
+                <p class="hero-description reveal">
+
+                    Discover a curated collection of extraordinary
+                    automobiles designed for those who refuse ordinary.
+
+                </p>
+
+                <div class="hero-buttons reveal">
+
+                    <a href="#cars" class="primary-button">
+
+                        Explore Collection
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                    <a href="#test-drive" class="secondary-button">
+
+                        Book a Test Drive
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Hero specifications -->
+
+            <div class="hero-specs">
+
+                <div class="hero-spec">
+
+                    <strong>120+</strong>
+
+                    <span>Premium Cars</span>
+
+                </div>
+
+                <div class="hero-spec">
+
+                    <strong>18</strong>
+
+                    <span>Luxury Brands</span>
+
+                </div>
+
+                <div class="hero-spec">
+
+                    <strong>4.9/5</strong>
+
+                    <span>Client Rating</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-scroll">
+
+                <span>SCROLL TO EXPLORE</span>
+
+                <div class="scroll-line"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURED CAR ================= -->
+
+        <section class="featured section">
+
+            <div class="section-label">
+                FEATURED VEHICLE
+            </div>
+
+            <div class="featured-grid">
+
+                <div class="featured-image reveal">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1600&q=90"
+                        alt="Luxury Mercedes vehicle"
+                    >
+
+                    <div class="image-number">
+                        01
+                    </div>
+
+                </div>
+
+                <div class="featured-content reveal">
+
+                    <div class="featured-brand">
+                        MERCEDES-BENZ
+                    </div>
+
+                    <h2>
+                        AMG GT
+                        <span>63 S</span>
+                    </h2>
+
+                    <p>
+
+                        Where breathtaking performance meets
+                        unmistakable luxury. Engineered for the road,
+                        designed to command attention.
+
+                    </p>
+
+                    <div class="car-specs">
+
+                        <div>
+                            <strong>4.0L</strong>
+                            <span>V8 BITURBO</span>
+                        </div>
+
+                        <div>
+                            <strong>577</strong>
+                            <span>HORSEPOWER</span>
+                        </div>
+
+                        <div>
+                            <strong>3.1s</strong>
+                            <span>0–100 KM/H</span>
+                        </div>
+
+                    </div>
+
+                    <div class="featured-bottom">
+
+                        <div>
+
+                            <span>Starting from</span>
+
+                            <strong>
+                                ₹2.71 Cr
+                            </strong>
+
+                        </div>
+
+                        <button
+                            class="outline-button"
+                            data-car="Mercedes AMG GT 63 S"
+                        >
+
+                            View Details
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= INVENTORY ================= -->
+
+        <section class="inventory section" id="cars">
+
+            <div class="section-header reveal">
+
+                <div>
+
+                    <div class="section-label">
+                        OUR COLLECTION
+                    </div>
+
+                    <h2>
+                        Find your
+                        <span>machine.</span>
+                    </h2>
+
+                </div>
+
+                <p>
+
+                    From refined grand tourers to
+                    uncompromising performance machines.
+
+                </p>
+
+            </div>
+
+
+            <!-- Filters -->
+
+            <div class="car-filters">
+
+                <button
+                    class="filter-button active"
+                    data-filter="all"
+                >
+                    All
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-filter="luxury"
+                >
+                    Luxury
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-filter="performance"
+                >
+                    Performance
+                </button>
+
+                <button
+                    class="filter-button"
+                    data-filter="suv"
+                >
+                    SUV
+                </button>
+
+            </div>
+
+
+            <!-- Cars -->
+
+            <div class="cars-grid" id="carsGrid">
+
+
+                <!-- CAR 1 -->
+
+                <article
+                    class="car-card reveal"
+                    data-category="performance"
+                    data-name="Porsche 911 Carrera"
+                >
+
+                    <div class="car-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=90"
+                            alt="Porsche 911"
+                        >
+
+                        <span class="car-tag">
+                            PERFORMANCE
+                        </span>
+
+                        <button
+                            class="heart-button"
+                            aria-label="Favourite"
+                        >
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                    </div>
+
+                    <div class="car-info">
+
+                        <div>
+
+                            <small>PORSCHE</small>
+
+                            <h3>
+                                911 Carrera
+                            </h3>
+
+                        </div>
+
+                        <strong>
+                            ₹2.00 Cr
+                        </strong>
+
+                    </div>
+
+                    <div class="car-meta">
+
+                        <span>
+                            <i class="fa-solid fa-gauge-high"></i>
+                            443 HP
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-bolt"></i>
+                            3.7s
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-gear"></i>
+                            Automatic
+                        </span>
+
+                    </div>
+
+                    <button
+                        class="card-button"
+                        data-car="Porsche 911 Carrera"
+                    >
+                        View Vehicle
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </article>
+
+
+                <!-- CAR 2 -->
+
+                <article
+                    class="car-card reveal"
+                    data-category="luxury"
+                    data-name="BMW 7 Series"
+                >
+
+                    <div class="car-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=90"
+                            alt="BMW 7 Series"
+                        >
+
+                        <span class="car-tag">
+                            LUXURY
+                        </span>
+
+                        <button class="heart-button">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+                    <div class="car-info">
+
+                        <div>
+
+                            <small>BMW</small>
+
+                            <h3>
+                                7 Series
+                            </h3>
+
+                        </div>
+
+                        <strong>
+                            ₹1.81 Cr
+                        </strong>
+
+                    </div>
+
+                    <div class="car-meta">
+
+                        <span>
+                            <i class="fa-solid fa-gauge-high"></i>
+                            375 HP
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-bolt"></i>
+                            5.4s
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-gear"></i>
+                            Automatic
+                        </span>
+
+                    </div>
+
+                    <button
+                        class="card-button"
+                        data-car="BMW 7 Series"
+                    >
+                        View Vehicle
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </article>
+
+
+                <!-- CAR 3 -->
+
+                <article
+                    class="car-card reveal"
+                    data-category="suv"
+                    data-name="Range Rover Sport"
+                >
+
+                    <div class="car-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=90"
+                            alt="Range Rover"
+                        >
+
+                        <span class="car-tag">
+                            SUV
+                        </span>
+
+                        <button class="heart-button">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+                    <div class="car-info">
+
+                        <div>
+
+                            <small>RANGE ROVER</small>
+
+                            <h3>
+                                Sport Autobiography
+                            </h3>
+
+                        </div>
+
+                        <strong>
+                            ₹2.60 Cr
+                        </strong>
+
+                    </div>
+
+                    <div class="car-meta">
+
+                        <span>
+                            <i class="fa-solid fa-gauge-high"></i>
+                            523 HP
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-bolt"></i>
+                            4.5s
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-gear"></i>
+                            Automatic
+                        </span>
+
+                    </div>
+
+                    <button
+                        class="card-button"
+                        data-car="Range Rover Sport"
+                    >
+                        View Vehicle
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </article>
+
+
+                <!-- CAR 4 -->
+
+                <article
+                    class="car-card reveal"
+                    data-category="luxury"
+                    data-name="Audi A8 L"
+                >
+
+                    <div class="car-image">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=90"
+                            alt="Audi luxury sedan"
+                        >
+
+                        <span class="car-tag">
+                            LUXURY
+                        </span>
+
+                        <button class="heart-button">
+
+                            <i class="fa-regular fa-heart"></i>
+
+                        </button>
+
+                    </div>
+
+                    <div class="car-info">
+
+                        <div>
+
+                            <small>AUDI</small>
+
+                            <h3>
+                                A8 L
+                            </h3>
+
+                        </div>
+
+                        <strong>
+                            ₹1.34 Cr
+                        </strong>
+
+                    </div>
+
+                    <div class="car-meta">
+
+                        <span>
+                            <i class="fa-solid fa-gauge-high"></i>
+                            335 HP
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-bolt"></i>
+                            5.6s
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-gear"></i>
+                            Automatic
+                        </span>
+
+                    </div>
+
+                    <button
+                        class="card-button"
+                        data-car="Audi A8 L"
+                    >
+                        View Vehicle
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EXPERIENCE ================= -->
+
+        <section class="experience" id="experience">
+
+            <div class="experience-bg"></div>
+
+            <div class="experience-overlay"></div>
+
+            <div class="experience-content reveal">
+
+                <div class="section-label">
+                    THE DRIVEHAUS EXPERIENCE
+                </div>
+
+                <h2>
+                    It's not just
+                    <span>a car.</span>
+                </h2>
+
+                <p>
+
+                    It's the feeling when the engine comes alive.
+                    The first turn of the wheel.
+                    The moment you realize you've found your car.
+
+                </p>
+
+                <a href="#test-drive" class="primary-button">
+
+                    Experience it yourself
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= STATS ================= -->
+
+        <section class="stats section">
+
+            <div class="stat-box reveal">
+
+                <strong class="counter" data-target="120">
+                    0
+                </strong>
+
+                <span>
+                    PREMIUM VEHICLES
+                </span>
+
+            </div>
+
+            <div class="stat-box reveal">
+
+                <strong class="counter" data-target="18">
+                    0
+                </strong>
+
+                <span>
+                    GLOBAL BRANDS
+                </span>
+
+            </div>
+
+            <div class="stat-box reveal">
+
+                <strong class="counter" data-target="2500">
+                    0
+                </strong>
+
+                <span>
+                    HAPPY CLIENTS
+                </span>
+
+            </div>
+
+            <div class="stat-box reveal">
+
+                <strong class="counter" data-target="12">
+                    0
+                </strong>
+
+                <span>
+                    YEARS OF TRUST
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TEST DRIVE ================= -->
+
+        <section
+            class="test-drive section"
+            id="test-drive"
+        >
+
+            <div class="test-drive-content reveal">
+
+                <div class="section-label">
+                    TAKE THE WHEEL
+                </div>
+
+                <h2>
+                    Your next drive
+                    <span>starts here.</span>
+                </h2>
+
+                <p>
+
+                    Tell us what you're looking for and
+                    we'll arrange the rest.
+
+                </p>
+
+            </div>
+
+
+            <form
+                class="test-drive-form reveal"
+                id="testDriveForm"
+            >
+
+                <div class="input-group">
+
+                    <label>
+                        YOUR NAME
+                    </label>
+
+                    <input
+                        type="text"
+                        placeholder="Enter your name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label>
+                        PHONE NUMBER
+                    </label>
+
+                    <input
+                        type="tel"
+                        placeholder="+91 XXXXX XXXXX"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label>
+                        PREFERRED VEHICLE
+                    </label>
+
+                    <select required>
+
+                        <option value="">
+                            Select a vehicle
+                        </option>
+
+                        <option>
+                            Mercedes AMG GT 63 S
+                        </option>
+
+                        <option>
+                            Porsche 911 Carrera
+                        </option>
+
+                        <option>
+                            BMW 7 Series
+                        </option>
+
+                        <option>
+                            Range Rover Sport
+                        </option>
+
+                        <option>
+                            Audi A8 L
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label>
+                        PREFERRED DATE
+                    </label>
+
+                    <input
+                        type="date"
+                        required
+                    >
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="primary-button form-button"
+                >
+
+                    Request Test Drive
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+                <p
+                    class="form-message"
+                    id="formMessage"
+                ></p>
+
+            </form>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="about section" id="about">
+
+            <div class="about-image reveal">
+
+                <img
+                    src="https://images.unsplash.com/photo-1542282088-fe8426682b8f?auto=format&fit=crop&w=1500&q=90"
+                    alt="Premium car"
+                >
+
+            </div>
+
+            <div class="about-content reveal">
+
+                <div class="section-label">
+                    WHY DRIVEHAUS
+                </div>
+
+                <h2>
+                    Cars chosen
+                    <span>differently.</span>
+                </h2>
+
+                <p>
+
+                    We don't believe in simply selling cars.
+                    We believe in finding the right machine
+                    for the person behind the wheel.
+
+                </p>
+
+                <div class="about-features">
+
+                    <div>
+
+                        <i class="fa-solid fa-car-side"></i>
+
+                        <div>
+
+                            <strong>
+                                Curated Collection
+                            </strong>
+
+                            <span>
+                                Only exceptional vehicles make it here.
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div>
+
+                        <i class="fa-solid fa-shield-halved"></i>
+
+                        <div>
+
+                            <strong>
+                                Verified Quality
+                            </strong>
+
+                            <span>
+                                Every vehicle inspected and certified.
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div>
+
+                        <i class="fa-solid fa-headset"></i>
+
+                        <div>
+
+                            <strong>
+                                Personal Service
+                            </strong>
+
+                            <span>
+                                Dedicated assistance from start to finish.
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FOOTER ================= -->
+
+        <footer id="contact">
+
+            <div class="footer-main">
+
+                <div class="footer-brand">
+
+                    <a class="brand">
+                        DRIVE<span>HAUS</span>
+                    </a>
+
+                    <p>
+                        Beyond the drive.
+                    </p>
+
+                    <div class="socials">
+
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h4>
+                        EXPLORE
+                    </h4>
+
+                    <a href="#cars">
+                        Our Cars
+                    </a>
+
+                    <a href="#experience">
+                        Experience
+                    </a>
+
+                    <a href="#about">
+                        About Us
+                    </a>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h4>
+                        CONTACT
+                    </h4>
+
+                    <p>
+                        Ahmedabad, Gujarat
+                    </p>
+
+                    <p>
+                        +91 98765 43210
+                    </p>
+
+                    <p>
+                        hello@drivehaus.in
+                    </p>
+
+                </div>
+
+
+                <div class="footer-column">
+
+                    <h4>
+                        VISIT US
+                    </h4>
+
+                    <p>
+                        Mon – Sat
+                    </p>
+
+                    <p>
+                        10:00 AM – 8:00 PM
+                    </p>
+
+                    <a href="#">
+                        Get Directions →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <span>
+                    © 2026 DRIVEHAUS. All rights reserved.
+                </span>
+
+                <span>
+                    Designed for the love of driving.
+                </span>
+
+            </div>
+
+        </footer>
+
+    </main>
+
+
+    <!-- ================= CAR MODAL ================= -->
+
+    <div
+        class="car-modal"
+        id="carModal"
+    >
+
+        <div class="modal-content">
+
+            <button
+                class="modal-close"
+                id="modalClose"
+            >
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+            <div class="modal-image">
+
+                <img
+                    id="modalCarImage"
+                    src=""
+                    alt=""
+                >
+
+            </div>
+
+            <div class="modal-info">
+
+                <div class="section-label">
+                    VEHICLE DETAILS
+                </div>
+
+                <h2 id="modalCarName">
+                    Porsche 911 Carrera
+                </h2>
+
+                <p id="modalCarDescription">
+
+                    Precision engineering meets
+                    exhilarating performance.
+
+                </p>
+
+                <div class="modal-specs">
+
+                    <div>
+                        <strong>443 HP</strong>
+                        <span>POWER</span>
+                    </div>
+
+                    <div>
+                        <strong>3.7s</strong>
+                        <span>0–100 KM/H</span>
+                    </div>
+
+                    <div>
+                        <strong>8-Speed</strong>
+                        <span>TRANSMISSION</span>
+                    </div>
+
+                </div>
+
+                <div class="modal-price">
+
+                    <span>Starting from</span>
+
+                    <strong id="modalPrice">
+                        ₹2.00 Cr
+                    </strong>
+
+                </div>
+
+                <a
+                    href="#test-drive"
+                    class="primary-button modal-drive"
+                    id="modalDrive"
+                >
+
+                    Book Test Drive
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= TOAST ================= -->
+
+    <div
+        class="toast"
+        id="toast"
+    >
+
+        <i class="fa-solid fa-circle-check"></i>
+
+        <span>
+            Added to favourites
+        </span>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
